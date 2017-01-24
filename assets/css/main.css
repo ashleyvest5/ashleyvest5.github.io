@@ -1,11 +1,44 @@
 /* custom styles */
 nav {
-  color: white;
-  text-decoration: none;
-  display: block;
-  padding: 35px;
-  float: right;
-  }
+    	background-color: #808080;
+    }
 
-  a:hover {
-  	background-color: white;
+a {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    float: right;
+    }
+
+a:hover {
+    	background-color: red;
+    }
+
+.clearfix:after {
+         visibility: hidden;
+         display: block;
+         content: " ";
+         clear: both;
+         height: 0;
+         font-size: 0;
+                  }
+
+body {
+    text-align: center;
+      }
+
+footer {
+   background-color: gray;
+   color: white;
+   text-align: center;
+   clear: both;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+       }
+
+span {
+  color:blue;
+}
